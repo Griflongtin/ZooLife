@@ -1,1 +1,13 @@
-
+<div *ngIf="selectedEditAnimal">
+    <label>Edit Keg Information
+      <input [(ngModel)]="selectedEditAnimal.Species">
+      <input [(ngModel)]="selectedEditAnimal.Name">
+      <input [(ngModel)]="selectedEditAnimal.Age">
+      <input [(ngModel)]="selectedEditAnimal.Diet">
+      <input [(ngModel)]="selectedEditAnimal.Location">
+      <input [(ngModel)]="selectedEditAnimal.Caretakers">
+      <input [(ngModel)]="selectedEditAnimal.Sex">
+      <input [(ngModel)]="selectedEditAnimal.Likes">
+      <input [(ngModel)]="selectedEditAnimal.Dislikes">
+    </label>
+</div>
