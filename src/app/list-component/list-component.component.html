@@ -1,3 +1,13 @@
-<p>
-  list-component works!
-</p>
+<ul>
+  <li *ngFor="let animal of animalList">
+    <h3>{{animal.Name}}</h3>
+    <div><span>{{animal.Species}}</span></div>
+    <div><span>{{animal.Age}}</span></div>
+    <div><span>{{animal.Diet}}</span></div>
+    <div><span>{{animal.Location}}</span></div>
+    <div><span>{{animal.Caretakers}}</span></div>
+    <div><span>{{animal.Sex}}</span></div>
+    <div><span>{{animal.Liks}}</span></div>
+    <div><span>{{animal.Dislikes}}</span></div>
+  </li>
+</ul>

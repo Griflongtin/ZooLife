@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter  } from '@angular/core';
+import { Animal } from '../animal.model';
 
 @Component({
   selector: 'app-list-component',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponentComponent implements OnInit {
 
+  @Input() animalList: Animal[];
+
+
   constructor() { }
 
   ngOnInit() {
+    console.log(this.animalList);
   }
 
 }

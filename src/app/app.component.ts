@@ -12,5 +12,4 @@ export class AppComponent {
   title = 'Zoo Animal Tracker';
 
   masterAnimalList: Animal[] = ANIMAL;
-
 }
