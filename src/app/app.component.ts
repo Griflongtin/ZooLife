@@ -15,6 +15,7 @@ export class AppComponent {
 
   selectedAnimal = null;
   editAnimal(ClickedAnimal) {
+  this.selectedAnimal = ClickedAnimal;
   alert("edit app");
   }
 }
