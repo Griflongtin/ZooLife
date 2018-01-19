@@ -20,4 +20,7 @@ export class AppComponent {
   finishedEditing() {
     this.selectedAnimal = null;
   }
+  addAnimal(newAnimalMaker: Animal) {
+    this.masterAnimalList.push(newAnimalMaker);
+  }
 }

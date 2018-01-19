@@ -1,14 +1,23 @@
-<div *ngIf="selectedEditAnimal">
+<div>
     <label>New Animal Information
-      <input name="animal" placeholder="" id="animal">
-      <input name="animal" placeholder="" id="animal">
-      <input name="animal" placeholder="" id="animal">
-      <input name="animal" placeholder="" id="animal">
-      <input name="animal" placeholder="" id="animal">
-      <input name="animal" placeholder="" id="animal">
-      <input name="animal" placeholder="" id="animal">
-      <input name="animal" placeholder="" id="animal">
-      <input name="animal" placeholder="" id="animal">
-      <button (click)="doneButtonClicked()">Done</button>
+      <label for="animalSpecies">Species:</label>
+      <input type="text" name="animalSpecies" placeholder="" id="animalSpecies">
+      <label for="animalName">Name:</label>
+      <input type="text" name="animalName" placeholder="" id="animalName">
+      <label for="animalAge">Age:</label>
+      <input type="number" name="animalAge" placeholder="" id="animalAge">
+      <label for="animalDiet">Diet:</label>
+      <input type="text" name="animalDiet" placeholder="" id="animalDiet">
+      <label for="animalLocation">Location:</label>
+      <input type="text" name="animalLocation" placeholder="" id="animalLocation">
+      <label for="animalCaretakers">Caretakers:</label>
+      <input type="number" name="animalCaretakers" placeholder="" id="animalCaretakers">
+      <label for="animalSex">Sex:</label>
+      <input type="text" name="animalSex" placeholder="" id="animalSex">
+      <label for="animalLikes">Likes:</label>
+      <input type="text" name="animalLikes" placeholder="" id="animalLikes">
+      <label for="animalDislikes">Dislikes:</label>
+      <input type="text" name="animalDislikes" placeholder="" id="animalDislikes">
+      <button (click)="doneButtonClicked(animalSpecies.value, animalName.value, animalAge.value, animalDiet.value, animalLocation.value, animalCaretakers.value, animalSex.value, animalLikes.value, animalDislikes.value)">Done</button>
     </label>
 </div>
