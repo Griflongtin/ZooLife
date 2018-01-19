@@ -12,7 +12,6 @@ export class AppComponent {
   title = 'Zoo Animal Tracker';
 
   masterAnimalList: Animal[] = ANIMAL;
-
   selectedAnimal = null;
   editAnimal(ClickedAnimal) {
   this.selectedAnimal = ClickedAnimal;
