@@ -2,3 +2,4 @@
   {{title}}
 </h1>
 <app-list-component [animalList]="masterAnimalList" (clickAnimalEditbutton)="editAnimal($event)" ></app-list-component>
+<app-edit-animal [selectedEditAnimal]="selectedAnimal" (doneclickAnimalEditbutton)="finishedEditing()"></app-edit-animal>
