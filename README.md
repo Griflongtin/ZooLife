@@ -1,31 +1,78 @@
-# Zoolife
+# _ZooLife_
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+#### _This is a website for tracking animals at a zoo. Like what they eat and how much they do._
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### By _**GRIFFIN P LOGNTIN**_
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+_This is a website for tracking animals at a zoo. It employs can add new or edit old animals and track how much they eat. You Can also sort the animals by category’s._
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Ambitions
 
-## Running unit tests
+#### Will be able to input animal into website
+*	Name
+*	Animal
+*	Age
+*	Diet
+*	Location
+*	Caretakers
+*	Sex
+*	Like
+*	Dislikes
+*	Popularity
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Will have a list of animals logged
 
-## Running end-to-end tests
+#### Will be able to list animal by category
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+#### Will be able to edit animal on website
+*	Name
+*	Animal
+*	Age
+*	Diet
+*	Location
+*	Caretakers
+*	Sex
+*	Like
+*	Dislikes
+*	Popularity
 
-## Deploying to GitHub Pages
+## Setup/Installation Requirements
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+#### You will need to clone the repository:
 
-## Further help
+* Open up terminal
+* Copy and paste this:
+* cd ~
+* cd desktop
+* git clone https://github.com/Griflongtin/javascript-week-two.git
+* cd javascript-week-two
+* mpn install
+* bower install
+* touch .env
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_Now open the folder on your desktop and open the .env file_
+_Go to https://developer.betterdoctor.com/ and make an account and git ad API key_
+_Paste the API key into the .env file_
+_GO back to the terminal and run these commands_
+
+* gulp build
+* gulp serve
+
+## Support and contact details
+
+_For support or any question please E-mail me at GrifLongtin@live.com_
+
+## Technologies Used
+
+  * Atom
+  * JavaScript
+  * CSS
+  * SCSS
+  * Node
+
+### License
+
+Copyright (c) 2016 **_GRIFFIN P LONGTIN_**
