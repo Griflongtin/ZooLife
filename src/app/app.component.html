@@ -1,4 +1,4 @@
 <h1>
   {{title}}
 </h1>
-<app-list-component [animalList]="masterAnimalList"></app-list-component>
+<app-list-component [animalList]="masterAnimalList" (clickAnimalEditbutton)="editAnimal($event)" ></app-list-component>
