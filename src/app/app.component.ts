@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Animal } from './animal.model';
+import { ANIMAL } from './animal-list';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Zoo Animal Tracker';
+
+  masterAnimalList: Animal[] = ANIMAL;
+
 }
