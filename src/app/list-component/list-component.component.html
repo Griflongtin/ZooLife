@@ -1,3 +1,12 @@
+
+<form id="filter">
+  <label>Filter by Age</label>
+  <input type="number" [(ngModel)]="ageNumberinputSearch">
+  <select>
+    <option [value]="1"><=</option>
+    <option [value]="2">>=</option>
+  </select>
+</form>
 <ul>
   <li *ngFor="let animal of animalList">
     <h3>{{animal.Name}}</h3>
