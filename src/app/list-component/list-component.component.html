@@ -1,14 +1,12 @@
 
 <form id="filter">
-  <label>Filter by Age</label>
-  <input type="number" [(ngModel)]="ageNumberinputSearch">
-  <select>
-    <option [value]="1"><=</option>
-    <option [value]="2">>=</option>
-  </select>
+  <label>Filter by Age <=: </label>
+  <input [(ngModel)]="term" name="term" type="number" placeholder="Search">
+  <label>Filter by Age >=: </label>
+  <input [(ngModel)]="term2" name="term2" type="number" placeholder="Search">
 </form>
 <ul>
-  <li *ngFor="let animal of animalList">
+  <li *ngFor="let animal of animalList | filter:term | filter:term2">
     <h3>{{animal.Name}}</h3>
     <div><span>{{animal.Species}}</span></div>
     <div><span>{{animal.Age}}</span></div>

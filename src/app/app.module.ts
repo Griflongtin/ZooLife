@@ -8,6 +8,7 @@ import { ListComponentComponent } from './list-component/list-component.componen
 import { EditAnimalComponent } from './edit-animal/edit-animal.component';
 import { AddNewAnimalComponent } from './add-new-animal/add-new-animal.component';
 import { FilterPipe } from './filter.pipe';
+import { Filter2Pipe } from './filter2.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FilterPipe } from './filter.pipe';
     ListComponentComponent,
     EditAnimalComponent,
     AddNewAnimalComponent,
-    FilterPipe
+    FilterPipe,
+    Filter2Pipe
   ],
   imports: [
     BrowserModule,
