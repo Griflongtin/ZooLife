@@ -10,7 +10,16 @@ export class AddNewAnimalComponent implements OnInit {
   @Output() newAnimalSender = new EventEmitter();
 
   submitForm(Species: string, Name: string, Age: number, Diet: string, Location: string, Caretakers: number, Sex: string, Likes: string, Dislikes: string) {
-    const addNewAnimal: Animal = new Animal(Species, Name, Age, Diet, Location, Caretakers, Sex, Likes, Dislikes);
+    const addNewAnimal: Animal = new Animal();
+    addNewAnimal.Species = Species;
+    addNewAnimal.Name = Name;
+    addNewAnimal.Age = Age;
+    addNewAnimal.Diet = Diet;
+    addNewAnimal.Location = Location;
+    addNewAnimal.Caretakers = Caretakers;
+    addNewAnimal.Sex = Sex;
+    addNewAnimal.Likes = Likes;
+    addNewAnimal.Dislikes = Dislikes;
     this.newAnimalSender.emit(addNewAnimal);
   }
 

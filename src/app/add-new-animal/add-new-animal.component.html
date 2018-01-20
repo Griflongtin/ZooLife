@@ -1,23 +1,24 @@
 <div>
-    <label>New Animal Information
+    <div>
+      <h2>New Animal Information</h2>
       <label for="animalSpecies">Species:</label>
-      <input type="text" name="animalSpecies" placeholder="" id="animalSpecies">
+      <input type="text" name="animalSpecies" placeholder="" #animalSpecies>
       <label for="animalName">Name:</label>
-      <input type="text" name="animalName" placeholder="" id="animalName">
+      <input type="text" name="animalName" placeholder="" #animalName>
       <label for="animalAge">Age:</label>
-      <input type="number" name="animalAge" placeholder="" id="animalAge">
+      <input type="number" name="animalAge" placeholder="" #animalAge>
       <label for="animalDiet">Diet:</label>
-      <input type="text" name="animalDiet" placeholder="" id="animalDiet">
+      <input type="text" name="animalDiet" placeholder="" #animalDiet>
       <label for="animalLocation">Location:</label>
-      <input type="text" name="animalLocation" placeholder="" id="animalLocation">
+      <input type="text" name="animalLocation" placeholder="" #animalLocation>
       <label for="animalCaretakers">Caretakers:</label>
-      <input type="number" name="animalCaretakers" placeholder="" id="animalCaretakers">
+      <input type="number" name="animalCaretakers" placeholder="" #animalCaretakers>
       <label for="animalSex">Sex:</label>
-      <input type="text" name="animalSex" placeholder="" id="animalSex">
+      <input type="text" name="animalSex" placeholder="" #animalSex>
       <label for="animalLikes">Likes:</label>
-      <input type="text" name="animalLikes" placeholder="" id="animalLikes">
+      <input type="text" name="animalLikes" placeholder="" #animalLikes>
       <label for="animalDislikes">Dislikes:</label>
-      <input type="text" name="animalDislikes" placeholder="" id="animalDislikes">
-      <button (click)="doneButtonClicked(animalSpecies.value, animalName.value, animalAge.value, animalDiet.value, animalLocation.value, animalCaretakers.value, animalSex.value, animalLikes.value, animalDislikes.value)">Done</button>
-    </label>
+      <input type="text" name="animalDislikes" placeholder="" #animalDislikes>
+      <button (click)="submitForm(animalSpecies.value, animalName.value, animalAge.value, animalDiet.value, animalLocation.value, animalCaretakers.value, animalSex.value, animalLikes.value, animalDislikes.value)">Done</button>
+    </div>
 </div>
