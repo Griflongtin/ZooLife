@@ -2,11 +2,11 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Animal } from '../animal.model';
 
 import { FilterPipe } from '../filter.pipe';
+import { Filter2Pipe } from '../filter2.pipe';
 @Component({
   selector: 'app-list-component',
   templateUrl: './list-component.component.html',
   styleUrls: ['./list-component.component.css']
-  // pipes: [filterPipe]
 })
 export class ListComponentComponent implements OnInit {
 

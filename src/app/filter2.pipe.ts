@@ -5,8 +5,11 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class Filter2Pipe implements PipeTransform {
 
-  transform(value: any, args?: any): any {
-    return null;
-  }
+  transform(animals: any, term2: any): any {
+    if (!term) return animals;
+    return animals.filter(function(animal) {
+      if(animal.Age >= term2) return animal;
+    })
+    }
 
 }
