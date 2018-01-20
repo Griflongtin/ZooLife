@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class Filter2Pipe implements PipeTransform {
 
   transform(animals: any, term2: any): any {
-    if (!term) return animals;
+    if (!term2) return animals;
     return animals.filter(function(animal) {
       if(animal.Age >= term2) return animal;
     })
